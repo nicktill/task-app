@@ -22,5 +22,5 @@ npm start
 
 Navigate to http://localhost:3000
 
-## should be fully funcitoning if NPM packages were correctly installed
+## will be fully funcitoning if NPM packages were correctly installed*
 
