@@ -1,29 +1,29 @@
-# React Crash Course 2021 (Task Tracker App)
+## Simple task-app utilizing json backend 
+We are essentially using the json as a backend infrastructure similar to ways that node, django, or other frameworks so that we can make API
+requests to it using post,get,delete etc
 
-This is the project from the [YouTube crash course](https://www.youtube.com/watch?v=w7ejDZ8SWv8). It includes the react ui as well as JSON-server for our mock backend
+https://www.npmjs.com/package/json-server 
+# How to Build?
 
-## Usage
 
 ### Install dependencies
 
 ```
-yarn install
+npm install
 ```
 
-### Run React dev server (http://localhost:3000)
+### Run the JSON server (http://localhost:3001) 
+## NOTE: We initially ran our dev container on http://localhost:5000 (THIS DOES NOT WORK ON MAC AS THAT PORT IS RESERVED FOR MAC OS)
+Therefore simply run the database using our localhost:3001 address
 
 ```
-yarn start
+npm run server
 ```
 
-### Run the JSON server (http://localhost:5000)
+## Now that the json server is built we can now run our dev container 
 
 ```
-yarn run server
+npm start 
 ```
 
-### To build for production
-
-```
-yarn run build
-```
+Navigate to http://localhost:3000 and should be fully funcitoning if NPM packages were correctly installed
