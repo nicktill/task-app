@@ -12,8 +12,7 @@ https://www.npmjs.com/package/json-server
 npm install
 ```
 
-### Run the JSON server (http://localhost:3001) 
-## NOTE: We initially ran our dev container on http://localhost:5000 (THIS DOES NOT WORK ON MAC AS THAT PORT IS RESERVED FOR MAC OS)
+### Run the JSON server (http://localhost:3001) NOTE: You MUST do this before doing npm start, otherwise you will run into issues
 Therefore simply run the database using our localhost:3001 address
 
 ```
