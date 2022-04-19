@@ -9,8 +9,14 @@
     {
       "text": "CS1520 Task-App",
       "day": "April 19th, 11:59pm",
-      "reminder": false,
+      "reminder": true,
       "id": 2
+    },
+    {
+      "text": "Neuroscience Final",
+      "day": "April 26th, 8:00AM",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
