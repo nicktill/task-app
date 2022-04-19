@@ -14,7 +14,7 @@ npm install
 npm run server
 ```
 
-## Now that the json server(databsae) is built we can now run our dev container 
+## Now that the json server(db) is built we can now run our dev container 
 
 ```
 npm start 
