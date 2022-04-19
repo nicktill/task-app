@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react'
+const App = () => {
+  const [showAddTask, setShowAddTask] = useState(false)
+  const [tasks, setTasks] = useState([])
 
-function App() {
+
   return (
-    <h1>Task App</h1>
+    <h1>base base</h1>
   )
 }
 
-export default App;
+export default App
