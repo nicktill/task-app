@@ -7,23 +7,23 @@ This is the project from the [YouTube crash course](https://www.youtube.com/watc
 ### Install dependencies
 
 ```
-npm install
+yarn install
 ```
 
 ### Run React dev server (http://localhost:3000)
 
 ```
-npm start
+yarn start
 ```
 
 ### Run the JSON server (http://localhost:5000)
 
 ```
-npm run server
+yarn run server
 ```
 
 ### To build for production
 
 ```
-npm run build
+yarn run build
 ```
